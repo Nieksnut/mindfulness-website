@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
           <div>
             <p className="text-[#6b5e52] font-semibold text-lg">
-              Mindfulness met Claire
+              Mindfulness bij Claire
             </p>
             <p className="text-gray-700 mt-2">
               Rust, aandacht en helderheid in het dagelijks leven.

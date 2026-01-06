@@ -9,9 +9,9 @@ export default function Hero() {
       <div className="z-10 flex flex-col items-center justify-start h-full text-center">
         <a href="/" className="mb-4">
           <Image
-            src="/images/claire_logo_transparant.png"
+            src="/images/claire_logo_2_transparant.png"
             alt="Logo Claire"
-            width={300}
+            width={450}
             height={100}
           />
         </a>
