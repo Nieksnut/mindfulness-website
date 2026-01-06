@@ -36,7 +36,7 @@ export default function OverDeTrainerBlok() {
       {/* Afbeelding */}
       <div className="w-full md:w-1/2">
         <Image
-          src="/images/foto claire 1.jpg"
+          src="/images/claire-1.jpg"
           alt="Claire – mindfulness trainer"
           width={800}
           height={550}

@@ -6,7 +6,7 @@ export default function MindfulnessQuoteBlock() {
       {/* Afbeelding links */}
       <div className="w-full md:w-1/2">
         <Image
-          src="/images/Home_inspire3.png"
+          src="/images/home_inspire3.png"
           alt="Let go quote visual"
           width={600}
           height={400}

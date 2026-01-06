@@ -36,7 +36,7 @@ export default function ClaireIntroBlock() {
       {/* Afbeelding boven */}
       <div className="w-full md:w-1/3 md:order-1">
         <Image
-          src="/images/foto claire 1.jpg"
+          src="/images/claire-1.jpg"
           alt="Claire mindfulness trainer"
           width={600}
           height={400}
