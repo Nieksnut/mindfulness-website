@@ -18,7 +18,7 @@ export default function Footer() {
             <a className="hover:text-[#4a4037] transition-colors" href="/mindfulness">
               Over mindfulness
             </a>
-            <a className="hover:text-[#4a4037] transition-colors" href="/training">
+            <a className="hover:text-[#4a4037] transition-colors" href="/trainingencoaching">
               Training
             </a>
             <a className="hover:text-[#4a4037] transition-colors" href="/contact">

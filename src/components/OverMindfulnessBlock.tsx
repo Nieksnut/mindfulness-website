@@ -92,7 +92,7 @@ export default function OverMindfulnessBlok() {
       {/* Afbeelding */}
       <div className="w-full md:w-1/2 md:order-2">
         <Image
-          src="/images/mindfulness-1.webp"
+          src="/images/home_inspire_5.png"
           alt="Rust en aandacht in de natuur"
           width={800}
           height={550}
