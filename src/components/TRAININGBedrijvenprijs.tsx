@@ -51,7 +51,7 @@ export default function KostenVergoedingenBlock() {
           <li>Ruimte voor reflectie en vragen</li>
         </ul>
 
-        <h3 className="text-base md:text-lg font-semibold text-[#6b5e52] mb-2">
+        {/* <h3 className="text-base md:text-lg font-semibold text-[#6b5e52] mb-2">
           2. Standaard bedrijfssessie (meest gekozen)
         </h3>
         <p className="text-gray-700 leading-relaxed mb-2">
@@ -88,10 +88,10 @@ export default function KostenVergoedingenBlock() {
               die daadwerkelijk effect willen ervaren.
             </span>
           </p>
-        </div>
+        </div> */}
 
         <h3 className="text-base md:text-lg font-semibold text-[#6b5e52] mb-2">
-          3. Traject of meerdere sessies
+          2. Traject of meerdere sessies
         </h3>
         <p className="text-gray-700 leading-relaxed mb-2">
           <span className="font-medium">Voorbeeld:</span> 3 sessies van 2,5 uur<br />
