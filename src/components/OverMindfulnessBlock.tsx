@@ -65,15 +65,15 @@ export default function OverMindfulnessBlok() {
 
         <p className="text-gray-700 mb-4">
           Niet door alles te willen oplossen, maar door een andere relatie
-          aan te gaan met wat er speelt — met meer acceptatie en minder
+          aan te gaan met wat er speelt. Met meer acceptatie en minder
           oordeel.
         </p>
 
         <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li>meer rust en balans te ervaren</li>
-          <li>veerkrachtiger om te gaan met uitdagingen</li>
-          <li>automatische patronen te herkennen</li>
-          <li>vriendelijker te zijn voor jezelf en anderen</li>
+          <li>meer rust en balans ervaren</li>
+          <li>veerkrachtiger omgaan met uitdagingen</li>
+          <li>automatische patronen herkennen</li>
+          <li>vriendelijker zijn voor jezelf en anderen</li>
         </ul>
 
         <p className="text-gray-700 mb-4">
@@ -84,7 +84,7 @@ export default function OverMindfulnessBlok() {
 
         <p className="text-gray-700">
           Of je nu verlangt naar meer rust, verdieping of een andere manier
-          van omgaan met stress — je bent van harte welkom. De training is
+          van omgaan met stress. Je bent van harte welkom. De training is
           toegankelijk voor iedereen, met of zonder meditatie-ervaring.
         </p>
       </div>

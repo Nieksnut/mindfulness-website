@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 export default function ContactBlock() {
@@ -22,29 +23,41 @@ export default function ContactBlock() {
   return (
     <section
       ref={sectionRef}
-      className={`flex justify-center px-6 py-16 bg-[#f9f5f0] border-t border-[#e7dfd6] text-center md:text-left max-w-7xl mx-auto transition-all duration-700 ease-in-out ${
+      className={`flex flex-col md:flex-row items-start justify-center gap-12 px-6 py-16 bg-[#f9f5f0] border-t border-[#e7dfd6] text-center md:text-left max-w-7xl mx-auto transition-all duration-700 ease-in-out ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}
     >
-      <div className="w-full flex flex-col justify-center md:justify-start h-full">
+      {/* Afbeelding */}
+      <div className="w-full md:w-1/3">
+        <Image
+          src="/images/claire2.jpeg"
+          alt="Claire – mindfulness trainer"
+          width={600}
+          height={450}
+          className="w-full h-auto rounded-lg shadow-md"
+        />
+      </div>
+
+      {/* Tekst */}
+      <div className="w-full md:w-1/2 flex flex-col justify-center">
         <h2 className="text-2xl md:text-4xl font-semibold mb-6 text-[#6b5e52]">
           Contact
         </h2>
 
-        <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
+        <p className="text-gray-700 leading-relaxed mb-6">
           Heb je vragen over de mindfulness training, twijfel je of de training
           bij je past, of wil je even overleggen? Je bent van harte welkom om
           contact op te nemen. Ik neem graag de tijd om met je mee te kijken.
         </p>
 
-        <div className="text-gray-700 leading-relaxed space-y-2">
+        <div className="text-gray-700 leading-relaxed space-y-3">
           <p>
             <span className="font-medium text-[#6b5e52]">Telefoon / WhatsApp:</span>{" "}
             <a
-              href="tel:0612345678"
+              href="tel:0651443004"
               className="underline hover:text-[#4a4037] transition-colors"
             >
-              06 12 34 56 78
+              06 51 44 30 04
             </a>
             <span className="ml-2 text-sm text-gray-600">(bellen of appen)</span>
           </p>
@@ -52,41 +65,41 @@ export default function ContactBlock() {
           <p>
             <span className="font-medium text-[#6b5e52]">E-mail:</span>{" "}
             <a
-              href="mailto:info@mindfulnessbijclaire.nl"
+              href="mailto:claire.daamen@hotmail.com"
               className="underline hover:text-[#4a4037] transition-colors"
             >
-              info@mindfulnessbijclaire.nl
+              claire.daamen@hotmail.com
             </a>
           </p>
 
           <p>
             <span className="font-medium text-[#6b5e52]">LinkedIn:</span>{" "}
             <a
-              href="https://www.linkedin.com/in/placeholder"
+              href="https://www.linkedin.com/in/claire-daamen"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-[#4a4037] transition-colors"
             >
-              linkedin.com/in/placeholder
+              linkedin.com/in/claire-daamen
             </a>
           </p>
 
           <p>
             <span className="font-medium text-[#6b5e52]">Facebook:</span>{" "}
             <a
-              href="https://www.facebook.com/placeholder"
+              href="https://www.facebook.com/profile.php?id=61584744758260"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-[#4a4037] transition-colors"
             >
-              facebook.com/placeholder
+              facebook.com/profile.php?id=61584744758260
             </a>
           </p>
         </div>
 
-        <p className="text-gray-700 leading-relaxed mt-6 max-w-3xl">
-          Je kunt me bellen of mailen op een moment dat voor jou prettig is.
-          Reageer ik niet direct, dan hoor je zo snel mogelijk van me terug.
+        <p className="text-gray-700 leading-relaxed mt-6">
+          Je kunt me bellen, appen of mailen op een moment dat voor jou prettig
+          is. Reageer ik niet direct, dan hoor je zo snel mogelijk van me terug.
         </p>
       </div>
     </section>

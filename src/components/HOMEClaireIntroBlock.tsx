@@ -52,8 +52,8 @@ export default function ClaireIntroBlock() {
         <p className="text-lg text-gray-700 leading-relaxed">
           Claire is mindfulness trainer en begeleidt mensen die willen leven met
           meer aandacht, rust en bewustzijn. Haar manier van werken is
-          zorgvuldig, warm en helder, met ruimte voor wat zich aandient —
-          zonder oordeel en zonder haast.
+          zorgvuldig, warm en helder, met ruimte voor wat zich aandient.
+          Zonder oordeel en zonder haast.
           <br />
           <br />
           <a

@@ -11,7 +11,7 @@ export default function Over() {
         <section className="p-8 max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold text-[#6b5e52]">Over de trainer</h1>
           <p className="mt-4 text-gray-700">
-            Maak kennis met Claire en haar manier van werken — warm, helder en
+            Maak kennis met Claire en haar manier van werken: warm, helder en
             zorgvuldig.
           </p>
         </section>

@@ -53,8 +53,8 @@ export default function OverDeTrainerBlok() {
         <p className="text-gray-700 mb-4">
           Claire is mindfulness trainer en begeleidt mensen die willen leven met
           meer aandacht, rust en bewustzijn. Haar manier van werken is
-          zorgvuldig, warm en helder, met ruimte voor wat zich aandient —
-          zonder oordeel en zonder haast.
+          zorgvuldig, warm en helder, met ruimte voor wat zich aandient.
+          Zonder oordeel en zonder haast.
         </p>
 
         <p className="text-gray-700 mb-4">
@@ -73,7 +73,7 @@ export default function OverDeTrainerBlok() {
 
         <p className="text-gray-700">
           Of je nu op zoek bent naar meer rust, verdieping of een andere manier
-          van omgaan met stress — je bent welkom zoals je bent. De training is
+          van omgaan met stress. Je bent welkom zoals je bent. De training is
           een uitnodiging om te vertragen, te luisteren en opnieuw contact te
           maken met jezelf.
         </p>

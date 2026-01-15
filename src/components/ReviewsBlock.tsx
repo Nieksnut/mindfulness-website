@@ -4,7 +4,7 @@ const reviews = [
   {
     title: "Claire straalt rust uit én weet waar ze het over heeft",
     text:
-      "Vanaf de eerste bijeenkomst voelde ik me op mijn gemak bij Claire. Ze is betrokken, helder en heeft een warme, rustige uitstraling die meteen vertrouwen geeft. Haar begeleiding is professioneel, maar ook menselijk en toegankelijk. De training heeft me veel gebracht: ik ervaar meer ruimte in mijn hoofd en kan beter omgaan met stresssituaties. Claire wist precies de juiste snaar te raken — zonder oordeel, met oprechte aandacht.",
+      "Vanaf de eerste bijeenkomst voelde ik me op mijn gemak bij Claire. Ze is betrokken, helder en heeft een warme, rustige uitstraling die meteen vertrouwen geeft. Haar begeleiding is professioneel, maar ook menselijk en toegankelijk. De training heeft me veel gebracht: ik ervaar meer ruimte in mijn hoofd en kan beter omgaan met stresssituaties. Claire wist precies de juiste snaar te raken zonder oordeel, met oprechte aandacht.",
     author: "Marieke (32)",
   },
   {
@@ -38,7 +38,7 @@ export default function ReviewsBlock() {
         setIndex((prev) => (prev + 1) % reviews.length);
         setVisible(true);
       }, 700); // duration of fade-out
-    }, 15000);
+    }, 22000);
 
     return () => {
       if (intervalRef.current !== null) window.clearInterval(intervalRef.current);
@@ -64,7 +64,7 @@ export default function ReviewsBlock() {
         </p>
 
         <p className="text-[#6b5e52] font-semibold">
-          — {reviews[index].author}
+           {reviews[index].author}
         </p>
       </div>
     </section>
