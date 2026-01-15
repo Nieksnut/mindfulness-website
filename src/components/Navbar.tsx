@@ -113,8 +113,61 @@ export default function Navbar() {
                   className="text-left hover:text-[#4a4037] transition-colors duration-300"
                   aria-expanded={showSubNav}
                 >
-                  TRAINING & COACHING ▾
+                  TRAINING & COACHING {showSubNav ? "▴" : "▾"}
                 </button>
+
+                {showSubNav && (
+                  <ul className="mt-3 ml-3 pl-4 border-l border-[#e7dfd6] flex flex-col gap-3 text-[#6b5e52] font-medium font-serif">
+                    <li>
+                      <Link
+                        className="hover:text-[#4a4037] transition-colors duration-300"
+                        href="/8weekse"
+                        onClick={() => {
+                          closeMobile();
+                          setShowSubNav(false);
+                        }}
+                      >
+                        8-WEEKSE TRAINING (MBSR)
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="hover:text-[#4a4037] transition-colors duration-300"
+                        href="/coaching"
+                        onClick={() => {
+                          closeMobile();
+                          setShowSubNav(false);
+                        }}
+                      >
+                        COACHING 1-OP-1
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="hover:text-[#4a4037] transition-colors duration-300"
+                        href="/bedrijven"
+                        onClick={() => {
+                          closeMobile();
+                          setShowSubNav(false);
+                        }}
+                      >
+                        VOOR BEDRIJVEN
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className="hover:text-[#4a4037] transition-colors duration-300"
+                        href="/voorwaarden"
+                        onClick={() => {
+                          closeMobile();
+                          setShowSubNav(false);
+                        }}
+                      >
+                        VOORWAARDEN
+                      </Link>
+                    </li>
+                  </ul>
+                )}
               </li>
               <li>
                 <Link
@@ -134,7 +187,7 @@ export default function Navbar() {
       </nav>
 
       {/* Sub-navbar (verschijnt onder de hoofdnavbar) */}
-      {showSubNav && (
+      {showSubNav && !mobileOpen && (
         <nav className="flex justify-center bg-[#f9f5f0] py-4 border-t border-[#e7dfd6]">
           <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-[#6b5e52] font-medium font-serif">
             <li>
