@@ -30,7 +30,7 @@ export default function ContactBlock() {
       {/* Afbeelding */}
       <div className="w-full md:w-1/3">
         <Image
-          src="/images/claire2.jpeg"
+          src="/images/claire3.jpeg"
           alt="Claire – mindfulness trainer"
           width={600}
           height={450}
