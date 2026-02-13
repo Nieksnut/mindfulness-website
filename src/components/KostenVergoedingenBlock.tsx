@@ -61,12 +61,12 @@ export default function KostenVergoedingenBlock() {
         <p className="text-gray-700 leading-relaxed mb-6">
           Wil je weten of jouw verzekering dit vergoedt? Bekijk je polisvoorwaarden, neem contact op met je verzekeraar of raadpleeg het actuele overzicht op{" "}
           <a
-            href="https://www.zorgwijzer.nl/vergoeding/mindfulness"
+            href="https://www.zorgverzekering.info/mindfulness"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium text-[#6b5e52] underline hover:text-[#4a4037] transition-colors"
           >
-            zorgwijzer.nl/vergoeding/mindfulness
+            zorgverzekering.info/mindfulness 
           </a>
           .
         </p>
