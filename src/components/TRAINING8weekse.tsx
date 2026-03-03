@@ -84,7 +84,7 @@ export default function PraktischBlock() {
       {/* Afbeelding */}
       <div className="w-full md:w-1/2 md:order-2">
         <Image
-          src="/images/training_route.png"
+          src="/images/bedrijven.jpeg"
           alt="Rust en aandacht in de natuur"
           width={800}
           height={550}
@@ -93,4 +93,4 @@ export default function PraktischBlock() {
       </div>
     </section>
   );
-}
+} 

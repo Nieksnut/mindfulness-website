@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
 
         <p className="text-gray-600 mt-8 text-sm">
-          © {year} Mindfulness met Claire • Alle rechten voorbehouden
+          © {year} Mindfulness bij Claire • Alle rechten voorbehouden
         </p>
       </div>
     </footer>

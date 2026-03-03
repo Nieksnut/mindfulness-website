@@ -35,8 +35,7 @@ export default function KostenVergoedingenBlock() {
           Kosten van individuele begeleiding
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
-          De investering voor het individuele coachingstraject bedraagt{" "}
-          <span className="font-medium text-[#6b5e52]">€425,-</span>. Dit betreft een
+          De investering voor het individuele coachingstraject bedraagt €425,-. Dit betreft een
           persoonlijk traject van meerdere sessies, volledig afgestemd op jouw
           situatie en tempo.
           <br />
@@ -52,8 +51,7 @@ export default function KostenVergoedingenBlock() {
         <p className="text-gray-700 leading-relaxed mb-6">
           Wanneer de begeleiding wordt vergoed door een werkgever (bijvoorbeeld in het
           kader van persoonlijke ontwikkeling of duurzame inzetbaarheid), geldt een
-          tarief van{" "}
-          <span className="font-medium text-[#6b5e52]">€495,- exclusief btw</span>.
+          tarief van €495,- exclusief btw.
           Steeds meer organisaties ondersteunen dit, omdat mindfulness aantoonbaar
           bijdraagt aan stressreductie, focus en veerkracht.
         </p>

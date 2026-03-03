@@ -55,7 +55,7 @@ export default function KostenVergoedingenBlock() {
           Zorgverzekeraars zoals Interpolis, Zilveren Kruis en FBTO vragen daarnaast om een trainer met een AGB-code. Ook deze heb ik. Let op: sommige verzekeraars kunnen vragen om een verwijsbrief van je huisarts of bedrijfsarts. Het is aan te raden dit vooraf te controleren bij je zorgverzekeraar.
         </p>
         <p className="text-gray-700 leading-relaxed mb-6">
-          Veel zorgverzekeraars vergoeden (deels) een mindfulness training, met een gemiddelde vergoeding rond de €350,-. Let op: de vergoeding heeft geen invloed op je eigen risico.
+          Veel zorgverzekeraars vergoeden (deels) een mindfulness training. Let op: de vergoeding heeft geen invloed op je eigen risico.
         </p>
 
         <p className="text-gray-700 leading-relaxed mb-6">
@@ -77,7 +77,7 @@ export default function KostenVergoedingenBlock() {
         <p className="text-gray-700 leading-relaxed">
           Veel mantelzorgers dragen vandaag de dag extra zorgverantwoordelijkheid door de veranderingen in de zorg. 
           Gemeenten kunnen hierin ondersteunen via de WMO (Wet Maatschappelijke Ondersteuning). 
-          In sommige gevallen is het mogelijk om een mindfulness training (gedeeltelijk) vergoed te krijgen als mantelzorger,via de gemeente of je zorgverzekeraar. 
+          In sommige gevallen is het mogelijk om een mindfulness training (gedeeltelijk) vergoed te krijgen als mantelzorger, via de gemeente of je zorgverzekeraar. 
           Informeer bij jouw gemeente of je hiervoor in aanmerking komt.
         </p>
       </div>

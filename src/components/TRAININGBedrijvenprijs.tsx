@@ -28,7 +28,7 @@ export default function KostenVergoedingenBlock() {
     >
       <div className="w-full flex flex-col justify-center md:justify-start h-full">
         <h2 className="text-2xl md:text-4xl font-semibold mb-6 text-[#6b5e52]">
-          Training & coaching voor organisaties
+          Training en coaching voor organisaties
         </h2>
 
         <p className="text-gray-700 leading-relaxed mb-8">

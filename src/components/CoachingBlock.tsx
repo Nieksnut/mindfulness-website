@@ -30,7 +30,7 @@ export default function PraktischBlock() {
       {/* Tekst */}
       <div className="w-full md:w-1/2 flex flex-col justify-center">
         <h2 className="text-3xl font-semibold text-[#6b5e52] mb-4">
-          Individuele Begeleiding
+          Individuele begeleiding
         </h2>
 
         <p className="text-gray-700 mb-4">
@@ -44,22 +44,22 @@ export default function PraktischBlock() {
         <ul className="list-disc list-outside pl-6 text-gray-700 leading-relaxed mb-6 space-y-2">
           <li>5 sessies van 75 minuten (1 op 1)</li>
           <li>
-            Sessies volledig afgestemd op jouw situatie en tempo
+            Sessies volledig afgestemd op jouw situatie en tempo.
             Geen vast programma, maar begeleiding op maat.
           </li>
           <li>
-            Mindfulnessoefeningen, adem- en lichaamswerk
+            Mindfulnessoefeningen, adem- en lichaamswerk.
             Gericht op ontspanning, bewustwording en regulatie van stress.
           </li>
-          <li>Verkennen van terugkerende patronen in denken en reageren
+          <li>Verkennen van terugkerende patronen in denken en reageren.
             Met aandacht voor wat zich in het moment aandient.
             </li>
           <li>
-            Ruimte voor reflectie, vragen en verdieping
+            Ruimte voor reflectie, vragen en verdieping.
             In een veilige setting met persoonlijke aandacht.
           </li>
           <li>
-            Tussen de sessies eenvoudige oefeningen ter ondersteuning
+            Tussen de sessies eenvoudige oefeningen ter ondersteuning.
             Passend bij jouw mogelijkheden en dagelijkse ritme.
           </li>
         </ul>
@@ -81,7 +81,6 @@ export default function PraktischBlock() {
         </p>
 
 
-1-1
 
       </div>
 
