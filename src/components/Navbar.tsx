@@ -145,13 +145,13 @@ export default function Navbar() {
                     <li>
                       <Link
                         className="hover:text-[#4a4037] transition-colors duration-300"
-                        href="/bedrijven"
+                        href="/ouder-en-kind"
                         onClick={() => {
                           closeMobile();
                           setShowSubNav(false);
                         }}
                       >
-                        VOOR BEDRIJVEN
+                        OUDER EN KIND
                       </Link>
                     </li>
                     <li>
@@ -217,13 +217,13 @@ export default function Navbar() {
             <li>
               <Link
                 className="hover:text-[#4a4037] transition-colors duration-300"
-                href="/bedrijven"
+                href="/ouder-en-kind"
                 onClick={() => {
                   closeMobile();
                   setShowSubNav(false);
                 }}
               >
-                VOOR BEDRIJVEN
+                OUDER EN KIND
               </Link>
             </li>
             <li>

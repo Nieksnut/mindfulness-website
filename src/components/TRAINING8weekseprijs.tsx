@@ -35,7 +35,7 @@ export default function KostenVergoedingenBlock() {
           Kosten van de mindfulness training
         </h3>
         <p className="text-gray-700 leading-relaxed mb-6">
-          De investering voor de reguliere 8-weekse mindfulness training bedraagt €326,- exclusief 21% btw. Dit is inclusief een uitgebreid werkboek en begeleidende audiotracks. Totaalprijs inclusief btw is €395,-.
+          De investering voor de reguliere 8-weekse mindfulness training bedraagt €351,- exclusief 21% btw. Dit is inclusief een uitgebreid werkboek en begeleidende audiotracks. Totaalprijs inclusief btw is €425,-.
         </p>
 
         <h3 className="text-base md:text-lg font-semibold text-[#6b5e52] mb-2">

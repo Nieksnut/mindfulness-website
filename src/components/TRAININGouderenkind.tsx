@@ -30,36 +30,45 @@ export default function PraktischBlock() {
       {/* Tekst */}
       <div className="w-full md:w-1/2 flex flex-col justify-center">
         <h2 className="text-3xl font-semibold text-[#6b5e52] mb-4">
-          Mindfulnesstraining voor bedrijven
+          Ouder en kind
         </h2>
 
         <p className="text-gray-700 mb-4">
-          In een werkomgeving waar de druk steeds hoger wordt, is mentale veerkracht essentieel. Ik bied mindfulnesstrainingen voor bedrijven die medewerkers ondersteunen om bewuster om te gaan met stress, hun focus te verbeteren en met meer rust en energie te werken.
-        </p>
+        <p>Samen vertragen. Samen ervaren. Samen aanwezig zijn.</p>
+        <br />
+        In de drukte van alledag is het soms lastig om echt even stil te staan. We zijn vaak bezig met wat er nog moet gebeuren, met school, werk, afspraken, verwachtingen en alles wat onze aandacht vraagt.
+        Mindfulness kan helpen om af en toe terug te keren naar het moment van nu.
+        Tijdens deze 5-weekse training gaan ouder en kind samen ontdekken wat mindfulness kan betekenen. Geen prestatie, geen moeten en geen ingewikkelde technieken. Wel samen oefenen in aandacht, nieuwsgierigheid en mildheid.        </p>
 
         <h3 className="text-xl font-semibold text-[#6b5e52] mt-6 mb-2">
           Wat houdt de training in?
         </h3>
+        
+        <p className="text-gray-700 mb-4">
+
+        Elke week staat een ander thema centraal. We oefenen onder andere met:
+
+        </p>
 
         <ul className="list-disc text-gray-700 mb-6 pl-6 space-y-2">
-          <li>Trainingen afgestemd op de wensen en context van de organisatie</li>
-          <li>Geschikt voor grotere of kleinere groepen collega’s</li>
-          <li>Combinatie van mindfulnessoefeningen, stress-educatie en praktische technieken</li>
-          <li>Aandachtstraining, ademhalingsoefeningen en korte meditaties</li>
-          <li>Inzicht in stresspatronen, herstel en mentale veerkracht op de werkvloer</li>
+          <li>Aandacht voor de adem en het lichaam;</li>
+          <li>bewust aanwezig zijn in het moment;</li>
+          <li>gevoelens leren opmerken zonder ze meteen te hoeven veranderen;</li>
+          <li>gedachten herkennen als gedachten;</li>
+          <li>omgaan met spanning, boosheid of onrust;</li>
+          <li>een pauze leren nemen voordat je reageert;</li>
+          <li>en vooral: met aandacht samen zijn.</li>
         </ul>
-
-        <h3 className="text-xl font-semibold text-[#6b5e52] mt-2 mb-2">
-          Vorm en opzet
-        </h3>
-
+        
         <p className="text-gray-700 mb-4">
-          De trainingen zijn flexibel inzetbaar en kunnen bestaan uit een eenmalige workshop of een uitgebreider traject. Elke training biedt concrete handvatten om stress te verminderen, de samenwerking te versterken en het werkplezier te vergroten.
+
+        De oefeningen zijn afgestemd op kinderen en worden afgewisseld met korte meditaties, mindful bewegen, speelse oefeningen en momenten van uitwisseling.
+
         </p>
 
-        <p className="text-gray-700">
-          Wil je meer weten over de mogelijkheden of bespreken wat het beste past bij jouw organisatie? Neem gerust contact met me op voor meer informatie of een vrijblijvend kennismakingsgesprek.
-        </p>
+
+       
+        
 
       </div>
 
