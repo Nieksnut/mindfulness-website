@@ -41,6 +41,21 @@ export default function PraktischBlock() {
           helderheid en veerkracht.
         </p>
 
+       <h3 className="text-xl font-semibold text-[#6b5e52] mt-2 mb-2">
+        Startdata en tijden
+       </h3>
+
+          <p className="text-gray-700 mb-4">
+          Wil je weten wanneer de eerstvolgende MBSR-groepen starten? Op mijn
+          Facebookpagina vind je de actuele startdata en tijden.{' '}
+          <a
+          href="https://www.facebook.com/profile.php?id=61584744758260"
+          className="font-semibold text-[#6b5e52] underline underline-offset-2">
+          Bekijk de actuele startdata op Facebook
+          </a>
+  .
+          </p>
+
         <h3 className="text-xl font-semibold text-[#6b5e52] mt-6 mb-2">
           Wat kun je verwachten?
         </h3>
@@ -63,14 +78,15 @@ export default function PraktischBlock() {
         </ul>
 
         <h3 className="text-xl font-semibold text-[#6b5e52] mt-2 mb-2">
-          Optionele stiltedag
+          Sanga Metta, samen blijven oefenen
         </h3>
 
         <p className="text-gray-700 mb-4">
-          Halverwege of aan het einde van de training is er een stilte- of
-          oefendag van ongeveer 6 uur. Deze dag biedt ruimte om in rust en
-          verdieping te oefenen, zonder afleiding van buitenaf. Deelnemers
-          ervaren dit vaak als een waardevolle en verhelderende ervaring.
+          Heb je de MBSR-training gevolgd en wil je blijven mediteren? Dan ben je van harte welkom bij de WhatsAppgroep van Sanga Metta. 
+          Sanga betekent ‘gemeenschap’. In de groep delen we regelmatig uitnodigingen om samen te mediteren.
+          Samen zitten, samen ademen, samen aandachtig aanwezig zijn. Even niets hoeven en stilstaan bij wat er op dit moment is. 
+          Door samen te oefenen helpen we elkaar om met aandacht en mildheid aanwezig te blijven, ook in het dagelijks leven.
+          Wil je aansluiten? Neem gerust contact met me op voor een uitnodiging. Je bent welkom, precies zoals je bent.
         </p>
 
         <p className="text-gray-700">
