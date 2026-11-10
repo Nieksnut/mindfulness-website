@@ -10,7 +10,7 @@ export default function Hero() {
         <a href="/" className="mb-4">
           <Image
             src="/images/claire_logo_2_transparant.png"
-            alt="Logo Claire"
+            alt="Mindfulness bij Claire – home"
             width={450}
             height={100}
           />
